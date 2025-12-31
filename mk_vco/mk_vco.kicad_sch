@@ -4432,12 +4432,6 @@
 		(uuid "71350881-7275-47a7-9e6d-6c1be58646ed")
 	)
 	(junction
-		(at 44.45 229.87)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "72149e57-59a6-4630-a80c-0880a26ae60c")
-	)
-	(junction
 		(at 81.28 115.57)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4590,6 +4584,15 @@
 	(no_connect
 		(at 219.71 219.71)
 		(uuid "e370ec3f-7d01-4fc5-8a7e-c4f3d2da07ca")
+	)
+	(bus_entry
+		(at 439.42 80.01)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "57b26e9a-9b79-44bb-b990-0821e5261603")
 	)
 	(wire
 		(pts
@@ -5503,7 +5506,7 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 229.87) (xy 44.45 229.87)
+			(xy 41.91 229.87) (xy 48.26 229.87)
 		)
 		(stroke
 			(width 0)
@@ -5640,16 +5643,6 @@
 			(type default)
 		)
 		(uuid "887181b8-9315-4de4-a78f-8f2353d0d7e4")
-	)
-	(wire
-		(pts
-			(xy 44.45 229.87) (xy 44.45 232.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8873b661-ae5a-4c0a-926c-de5c819eab0d")
 	)
 	(wire
 		(pts
@@ -5823,16 +5816,6 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 229.87) (xy 48.26 229.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a3c53288-539e-4a8d-81d9-df263fb8f375")
-	)
-	(wire
-		(pts
 			(xy 153.67 213.36) (xy 153.67 215.9)
 		)
 		(stroke
@@ -5863,7 +5846,7 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 227.33) (xy 44.45 229.87)
+			(xy 44.45 227.33) (xy 44.45 232.41)
 		)
 		(stroke
 			(width 0)
@@ -10102,7 +10085,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D8.0mm_P5.00mm"
+		(property "Footprint" "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm"
 			(at 64.135 229.235 0)
 			(effects
 				(font
@@ -13829,7 +13812,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D8.0mm_P5.00mm"
+		(property "Footprint" "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm"
 			(at 64.135 240.665 0)
 			(effects
 				(font
