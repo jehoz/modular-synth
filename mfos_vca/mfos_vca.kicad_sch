@@ -6612,7 +6612,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
 			(at 317.5 107.95 0)
 			(effects
 				(font
@@ -6757,7 +6757,7 @@
 				)
 			)
 		)
-		(property "Value" "CV2 A"
+		(property "Value" "CV A"
 			(at 41.275 54.61 0)
 			(effects
 				(font
@@ -6765,7 +6765,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
+		(property "Footprint" "Library:PinHeader_1x03_P2.54mm_Vertical_AudioJack"
 			(at 41.91 60.96 0)
 			(effects
 				(font
@@ -7529,7 +7529,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
+		(property "Footprint" "Library:PinHeader_1x03_P2.54mm_Vertical_AudioJack"
 			(at 241.3 124.46 0)
 			(effects
 				(font
@@ -9851,7 +9851,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
 			(at 119.38 109.22 0)
 			(effects
 				(font
@@ -11043,7 +11043,7 @@
 				)
 			)
 		)
-		(property "Value" "Signal Out A"
+		(property "Value" "Signal Out B"
 			(at 384.175 105.41 0)
 			(effects
 				(font
@@ -11051,7 +11051,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
+		(property "Footprint" "Library:PinHeader_1x03_P2.54mm_Vertical_AudioJack"
 			(at 383.54 111.76 0)
 			(effects
 				(font
@@ -11122,7 +11122,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
+		(property "Footprint" "Library:PinHeader_1x03_P2.54mm_Vertical_AudioJack"
 			(at 185.42 113.03 0)
 			(effects
 				(font
@@ -13671,7 +13671,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
+		(property "Footprint" "Library:PinHeader_1x03_P2.54mm_Vertical_AudioJack"
 			(at 43.18 125.73 0)
 			(effects
 				(font
@@ -14096,7 +14096,7 @@
 				)
 			)
 		)
-		(property "Value" "CV2 B"
+		(property "Value" "CV B"
 			(at 239.395 53.34 0)
 			(effects
 				(font
@@ -14104,7 +14104,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
+		(property "Footprint" "Library:PinHeader_1x03_P2.54mm_Vertical_AudioJack"
 			(at 240.03 59.69 0)
 			(effects
 				(font
