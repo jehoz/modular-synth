@@ -6765,7 +6765,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Library:PinHeader_1x03_P2.54mm_Vertical_AudioJack"
+		(property "Footprint" "CustomStuff:PinHeader_1x03_P2.54mm_Vertical_AudioJack"
 			(at 41.91 60.96 0)
 			(effects
 				(font
@@ -7529,7 +7529,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Library:PinHeader_1x03_P2.54mm_Vertical_AudioJack"
+		(property "Footprint" "CustomStuff:PinHeader_1x03_P2.54mm_Vertical_AudioJack"
 			(at 241.3 124.46 0)
 			(effects
 				(font
@@ -11051,7 +11051,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Library:PinHeader_1x03_P2.54mm_Vertical_AudioJack"
+		(property "Footprint" "CustomStuff:PinHeader_1x03_P2.54mm_Vertical_AudioJack"
 			(at 383.54 111.76 0)
 			(effects
 				(font
@@ -11122,7 +11122,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Library:PinHeader_1x03_P2.54mm_Vertical_AudioJack"
+		(property "Footprint" "CustomStuff:PinHeader_1x03_P2.54mm_Vertical_AudioJack"
 			(at 185.42 113.03 0)
 			(effects
 				(font
@@ -13671,7 +13671,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Library:PinHeader_1x03_P2.54mm_Vertical_AudioJack"
+		(property "Footprint" "CustomStuff:PinHeader_1x03_P2.54mm_Vertical_AudioJack"
 			(at 43.18 125.73 0)
 			(effects
 				(font
@@ -14104,7 +14104,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Library:PinHeader_1x03_P2.54mm_Vertical_AudioJack"
+		(property "Footprint" "CustomStuff:PinHeader_1x03_P2.54mm_Vertical_AudioJack"
 			(at 240.03 59.69 0)
 			(effects
 				(font
