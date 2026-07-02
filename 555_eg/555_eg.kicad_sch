@@ -6351,7 +6351,7 @@
 				)
 			)
 		)
-		(property "Value" "100k"
+		(property "Value" "220"
 			(at 186.69 40.64 90)
 			(effects
 				(font
@@ -6623,7 +6623,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "A1M"
+		(property "Value" "A100k"
 			(at 194.31 74.9299 0)
 			(effects
 				(font
@@ -7805,7 +7805,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "A1M"
+		(property "Value" "A100k"
 			(at 218.44 105.4099 0)
 			(effects
 				(font
@@ -8083,7 +8083,7 @@
 				)
 			)
 		)
-		(property "Value" "100k"
+		(property "Value" "220"
 			(at 186.69 64.77 90)
 			(effects
 				(font
@@ -8541,6 +8541,7 @@
 	(symbol
 		(lib_id "Device:R_Potentiometer_US")
 		(at 198.12 121.92 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8548,7 +8549,7 @@
 		(dnp no)
 		(uuid "9bc570be-50f5-4814-b596-bfc88b3f40c2")
 		(property "Reference" "RV3"
-			(at 195.58 120.6499 0)
+			(at 195.58 123.1901 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8557,7 +8558,7 @@
 			)
 		)
 		(property "Value" "B10K"
-			(at 195.58 123.1899 0)
+			(at 195.58 120.6501 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8593,7 +8594,7 @@
 			)
 		)
 		(property "Label" "Sustain"
-			(at 191.516 125.476 0)
+			(at 191.516 118.364 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9076,7 +9077,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "A1M"
+		(property "Value" "A100k"
 			(at 194.31 50.7999 0)
 			(effects
 				(font
@@ -10178,7 +10179,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100k"
+		(property "Value" "220"
 			(at 223.52 118.1099 0)
 			(effects
 				(font
