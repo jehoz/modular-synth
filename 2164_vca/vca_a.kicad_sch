@@ -3207,6 +3207,72 @@
 			)
 		)
 	)
+	(global_label "VCA2_CV"
+		(shape input)
+		(at 175.26 109.22 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5931c576-80c1-46c2-9c5e-c5abbd1f1373")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 175.26 120.1881 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "VCA2_IN"
+		(shape input)
+		(at 162.56 123.19 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6d01322f-8fc5-43e6-9d97-2d94b440c9d9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 173.1048 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "VCA1_IN"
+		(shape input)
+		(at 83.82 146.05 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "745383e4-efb8-411b-9bf8-0b0dd9959801")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 94.3648 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "CTRL_GND"
 		(shape passive)
 		(at 219.71 54.61 180)
@@ -3225,6 +3291,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "VCA1_CV"
+		(shape input)
+		(at 96.52 160.02 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b723d5da-c266-4a97-bd73-febbc4227b01")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 96.52 149.0519 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -3251,71 +3339,49 @@
 			)
 		)
 	)
-	(hierarchical_label "VCA1_CV"
-		(shape input)
-		(at 96.52 160.02 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "0f503843-752d-4bf3-8bc0-d6c6c87e7b95")
-	)
-	(hierarchical_label "VCA2_OUT"
-		(shape input)
-		(at 189.23 123.19 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "23d480fa-38e4-427f-ab00-1b3c6f3a4f27")
-	)
-	(hierarchical_label "VCA2_CV"
-		(shape input)
-		(at 175.26 109.22 270)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "3dc3e88a-048e-4ea8-99a0-6a3513d39c7b")
-	)
-	(hierarchical_label "VCA1_OUT"
+	(global_label "VCA1_OUT"
 		(shape input)
 		(at 110.49 146.05 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "627ecbae-b438-4022-a059-7394892a21f5")
+		(uuid "c632d56d-23b0-4b60-98db-925c9a3674ae")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 98.2519 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
 	)
-	(hierarchical_label "VCA2_IN"
+	(global_label "VCA2_OUT"
 		(shape input)
-		(at 162.56 123.19 0)
+		(at 189.23 123.19 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
-		(uuid "8c220c09-0e98-4f58-b234-37d4eff91094")
-	)
-	(hierarchical_label "VCA1_IN"
-		(shape input)
-		(at 83.82 146.05 0)
-		(effects
-			(font
-				(size 1.27 1.27)
+		(uuid "d868f3f5-08b5-4fcc-81f5-734a2df4c1a1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 176.9919 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
 			)
-			(justify left)
 		)
-		(uuid "b185b8e2-4f70-426e-8911-20a2c9f5c63c")
 	)
 	(symbol
 		(lib_id "Device:C_Small")
@@ -4322,7 +4388,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Potentiometer_THT:Potentiometer_Runtron_RM-065_Vertical"
 			(at 63.5 115.57 0)
 			(effects
 				(font
@@ -4749,7 +4815,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "B10K"
+		(property "Value" "B50K"
 			(at 60.96 147.3199 0)
 			(effects
 				(font
@@ -4758,7 +4824,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Potentiometer_THT:Potentiometer_Runtron_RM-065_Vertical"
 			(at 63.5 146.05 0)
 			(effects
 				(font

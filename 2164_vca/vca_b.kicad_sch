@@ -3185,6 +3185,50 @@
 		)
 		(uuid "b49b75ac-f382-4be1-8340-403de046c022")
 	)
+	(global_label "VCA3_CV"
+		(shape input)
+		(at 96.52 165.1 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "19a77b1a-4a3c-4624-8ea2-d2de11973005")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 96.52 154.1319 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "VCA3_IN"
+		(shape input)
+		(at 83.82 151.13 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3530edc0-1756-4ba0-83b7-79e3648c227f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 94.3648 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "CTRL_GND"
 		(shape passive)
 		(at 43.18 54.61 180)
@@ -3207,6 +3251,72 @@
 			)
 		)
 	)
+	(global_label "VCA4_CV"
+		(shape input)
+		(at 175.26 114.3 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4472ac8b-a333-473c-99a0-5140c20f6452")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 175.26 125.2681 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "VCA3_OUT"
+		(shape input)
+		(at 110.49 151.13 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "68be120d-271e-4b67-a661-4666b9686edc")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 98.2519 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "VCA4_IN"
+		(shape input)
+		(at 162.56 128.27 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "69d8f96d-96d3-4d37-ab23-768d60fb8622")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 173.1048 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "CTRL_GND"
 		(shape passive)
 		(at 52.07 73.66 180)
@@ -3220,6 +3330,28 @@
 		(uuid "a914609c-b96a-4ec4-b262-de48180ae3c4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 40.8223 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "VCA4_OUT"
+		(shape input)
+		(at 189.23 128.27 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "cc0ce954-2ec4-4879-af76-68b2d9a2995f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 176.9919 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3250,72 +3382,6 @@
 				(hide yes)
 			)
 		)
-	)
-	(hierarchical_label "VCA4_CV"
-		(shape input)
-		(at 175.26 114.3 270)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "1879a770-9865-4150-adcd-3ec461620240")
-	)
-	(hierarchical_label "VCA4_OUT"
-		(shape input)
-		(at 189.23 128.27 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "54e7c0ac-7294-4322-ba8a-dbd6c3ec9967")
-	)
-	(hierarchical_label "VCA3_CV"
-		(shape input)
-		(at 96.52 165.1 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "923e35c6-09f2-4932-820e-d31c033f2be0")
-	)
-	(hierarchical_label "VCA3_OUT"
-		(shape input)
-		(at 110.49 151.13 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "a456469e-dbda-4a8d-ad5a-17d31f70c6e2")
-	)
-	(hierarchical_label "VCA3_IN"
-		(shape input)
-		(at 83.82 151.13 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "dbe2aaca-c03a-43fb-9d80-1e796c05e30f")
-	)
-	(hierarchical_label "VCA4_IN"
-		(shape input)
-		(at 162.56 128.27 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "fd5cbcfb-3ee3-43b2-a5dd-fad56b17e87f")
 	)
 	(symbol
 		(lib_id "Device:R")
@@ -3574,7 +3640,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "B10K"
+		(property "Value" "B50K"
 			(at 60.96 152.3999 0)
 			(effects
 				(font
@@ -3583,7 +3649,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Potentiometer_THT:Potentiometer_Runtron_RM-065_Vertical"
 			(at 63.5 151.13 0)
 			(effects
 				(font
@@ -4727,7 +4793,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Potentiometer_THT:Potentiometer_Runtron_RM-065_Vertical"
 			(at 63.5 120.65 0)
 			(effects
 				(font
