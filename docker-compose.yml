@@ -1,0 +1,14 @@
+version: '3.8'
+
+services:
+  kicad:
+    build: .
+    ports:
+      - "8080:8080"
+    volumes:
+      - .:/workspace
+    environment:
+      - DISPLAY=:1
+      - KICAD_SKIP_INOTIFY=1
+    stdin_open: true
+    tty: true
